@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+h1{
+    color: rgb(90, 34, 14);;
+}
+img{
+    width: 40vw;
+}
+#img1{
+    margin-bottom: 5px;
+}
+.gallery{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin-top: 50px;
+}
+button{
+    height: 50px;
+    width: 200px;
+    margin-top: 70px;
+    font-size: larger;
+    color: white;
+    background-color: rgb(90, 34, 14);
+    border-radius: 10px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+button:hover{
+    background-color: brown;
+}
